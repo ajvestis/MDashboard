@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="ftp://maintoutlet.com" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="maintoutlet.com" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="True" profileName="Profile1" publishMethod="FTP" replaceMatchingFiles="True" userName="maintoutlet" savePWD="True" userPWD="AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAyutjeGCvdUOKeFV7p0X5UAAAAAACAAAAAAAQZgAAAAEAACAAAADU9m5dphehyqcBWHwNrz1hXDPue/Ykq+ZgKIrsY2VWhwAAAAAOgAAAAAIAACAAAAC2y/+FIGXQRumBUssQY2wpNsKpzm/lUZF0aujTy2GQYCAAAAAdaMhBvb3kfGBrt4C/AKJqgFjUbKr9dZFb13zIDZ2q4kAAAABK966dUMeq767DO0FaWcJUoh2CCuSgHLHGu65/CiP9RD1BvYSXBUPen2ey2HdXz4GZJI7GaJE+axByJs10og5J" SelectedForPublish="True">
+    <file relUrl="bin/MDashboard.pdb" publishTime="02/04/2021 13:17:33" />
+    <file relUrl="bin/AdVantageDataAccessLayer.dll" publishTime="02/04/2021 12:24:41" />
+    <file relUrl="Main2.aspx" publishTime="02/04/2021 13:46:07" />
+    <file relUrl="bin/MDashboard.dll" publishTime="02/04/2021 13:17:33" />
+    <file relUrl="Web.config" publishTime="02/04/2021 13:37:12" />
+  </publishProfile>
+</publishData>

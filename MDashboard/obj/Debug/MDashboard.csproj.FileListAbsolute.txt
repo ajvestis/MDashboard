@@ -1,0 +1,5 @@
+C:\Users\Main T\Documents\GitHub\MDashboard\MDashboard\bin\MDashboard.dll
+C:\Users\Main T\Documents\GitHub\MDashboard\MDashboard\bin\MDashboard.pdb
+C:\Users\Main T\Documents\GitHub\MDashboard\MDashboard\obj\Debug\MDashboard.dll
+C:\Users\Main T\Documents\GitHub\MDashboard\MDashboard\obj\Debug\MDashboard.pdb
+C:\Users\Main T\Documents\GitHub\MDashboard\MDashboard\obj\Debug\MDashboard.csprojResolveAssemblyReference.cache
