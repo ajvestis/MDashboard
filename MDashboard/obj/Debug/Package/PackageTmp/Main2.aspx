@@ -12,22 +12,28 @@
    
     <p>   <asp:Label ID="lblTime" runat="server"></asp:Label></p>
     <div>
- 
-    <asp:label ID="lblTotal" runat="server" text="Total: "></asp:label><br />
-    <asp:label ID="lblSalesCount" runat="server" text="S#: "></asp:label><br />
-    <asp:label ID="lblCreditCard" runat="server" text="CC: "></asp:label><br />
-    <asp:label ID="lblCash" runat="server" text="CS: "></asp:label><br />
-    <asp:label ID="lblStoreCredit" runat="server" text="SC: "></asp:label><br />
-    <asp:label ID="lblDiscount" runat="server" text="DC: "></asp:label><br />
-    <asp:label ID="lblReturn" runat="server" text="RT: "></asp:label><br />
+    <b>
+    <asp:label ID="lblTotal" runat="server" text=""></asp:label></b>
+    <asp:label ID="lblSalesCount" runat="server" text=""></asp:label>	&nbsp; <img src="image/Cash.JPG" width="24" />
+    <asp:label ID="lblCash" runat="server" text=""></asp:label>	&nbsp;	&nbsp;<img src="image/Card.JPG" width="24" />
+    <asp:label ID="lblCreditCard" runat="server" text=""></asp:label><br />
+    <img src="image/StoreCredit.JPG" width="18" /><asp:label ID="lblStoreCredit" runat="server" text=""></asp:label>	&nbsp;
+    <img src="image/Discount.JPG" width="18" /><asp:label ID="lblDiscount" runat="server" text=""></asp:label>	&nbsp;
+    <img src="image/Return.JPG" width="24" /><asp:label ID="lblReturn" runat="server" text=""></asp:label><br />
     </div>
-     <h2>Main2</h2>
-    <div>
-        <asp:DataList ID="dlHourly" runat="server">
-        <HeaderTemplate>Hour</HeaderTemplate>
+    <h3>Main2</h3>
+    <div> 
+        <asp:DataList ID="dlHourly" runat="server" BackColor="White" 
+            BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" CellPadding="4" 
+            ForeColor="Black" GridLines="Horizontal">
+      
+            <FooterStyle BackColor="#CCCC99" ForeColor="Black" />
+            <HeaderStyle BackColor="#333333" Font-Bold="True" ForeColor="White" />
+      
          <ItemTemplate> <%# Eval("Hour")%> : <%# Eval("HourlyTotal")%>
        
     </ItemTemplate>
+            <SelectedItemStyle BackColor="#CC3333" Font-Bold="True" ForeColor="White" />
         </asp:DataList>
     </div>
     </form>

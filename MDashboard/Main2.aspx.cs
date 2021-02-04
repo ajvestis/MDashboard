@@ -19,7 +19,7 @@ namespace MDashboard
             _conn = Properties.Settings.Default.AJVConnection;
             DataTable dt = AdVantageData.GetDataTable(_conn, "usp_SummaryReport");
             lblTotal.Text += Convert.ToInt32(dt.Rows[0]["Total"]).ToString();
-            lblSalesCount.Text += Convert.ToInt32(dt.Rows[0]["SalesCount"]).ToString();
+            lblSalesCount.Text += "("+ Convert.ToInt32(dt.Rows[0]["SalesCount"]).ToString() + ")";
             lblCreditCard.Text += Convert.ToInt32(dt.Rows[0]["CreditCard"]).ToString();
             lblCash.Text += Convert.ToInt32(dt.Rows[0]["Cash"]).ToString();
             lblStoreCredit.Text += Convert.ToInt32(dt.Rows[0]["StoreCredit"]).ToString();
