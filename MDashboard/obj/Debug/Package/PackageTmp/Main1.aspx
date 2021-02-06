@@ -1,10 +1,10 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Main2.aspx.cs" Inherits="MDashboard.Main2" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Main1.aspx.cs" Inherits="MDashboard.Main1" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>MT-SA</title>
+    <title>MT-GG</title>
      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Source Sans Pro">

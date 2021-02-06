@@ -5,5 +5,8 @@
     <Setting Name="AJVConnection" Type="System.String" Scope="Application">
       <Value Profile="(Default)">Server=AJVESTIS.db.8110606.hostedresource.com;Database=AJVestis;User Id=AJVestis;Password=Runway32!;</Value>
     </Setting>
+    <Setting Name="MT1Connection" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Server=MainTOutlet.db.8110606.hostedresource.com;Database=MainTOutlet;User Id=MainTOutlet;Password=Runway32!;</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

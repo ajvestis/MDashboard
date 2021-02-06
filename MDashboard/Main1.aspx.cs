@@ -9,15 +9,14 @@ using System.Data;
 
 namespace MDashboard
 {
-    public partial class Main2 : System.Web.UI.Page
+    public partial class Main1 : System.Web.UI.Page
     {
         private string _conn;
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            //TimeZoneInfo pacificZone = TimeZoneInfo.FindSystemTimeZoneById("P
-            lblTime.Text = "Main 2 @ " + DateTime.UtcNow.AddHours(-8).ToShortDateString() + " " + DateTime.UtcNow.AddHours(-8).ToShortTimeString();
-            _conn = Properties.Settings.Default.AJVConnection;
+            lblTime.Text = "Main 1 @ " + DateTime.UtcNow.AddHours(-8).ToShortDateString() + " " + DateTime.UtcNow.AddHours(-8).ToShortTimeString();
+            _conn = Properties.Settings.Default.MT1Connection;
             DataTable dt = AdVantageData.GetDataTable(_conn, "usp_SummaryReport");
             lblTotal.Text += Convert.ToInt32(dt.Rows[0]["Total"]).ToString();
             lblSalesCount.Text += "("+ Convert.ToInt32(dt.Rows[0]["SalesCount"]).ToString() + ")";

@@ -32,5 +32,15 @@ namespace MDashboard.Properties {
                 return ((string)(this["AJVConnection"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Server=MainTOutlet.db.8110606.hostedresource.com;Database=MainTOutlet;User Id=Mai" +
+            "nTOutlet;Password=Runway32!;")]
+        public string MT1Connection {
+            get {
+                return ((string)(this["MT1Connection"]));
+            }
+        }
     }
 }

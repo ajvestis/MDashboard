@@ -13,6 +13,7 @@
     <RootNamespace>MDashboard</RootNamespace>
     <AssemblyName>MDashboard</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -54,6 +55,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Main1.aspx" />
     <Content Include="image\Card.JPG" />
     <Content Include="image\Cash.JPG" />
     <Content Include="image\Discount.JPG" />
@@ -69,6 +71,13 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Main1.aspx.cs">
+      <DependentUpon>Main1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main1.aspx.designer.cs">
+      <DependentUpon>Main1.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Main2.aspx.cs">
       <DependentUpon>Main2.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
