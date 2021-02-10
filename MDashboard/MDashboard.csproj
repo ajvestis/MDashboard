@@ -55,6 +55,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="M2Registration.aspx" />
     <Content Include="Main1.aspx" />
     <Content Include="image\Card.JPG" />
     <Content Include="image\Cash.JPG" />
@@ -71,6 +72,13 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="M2Registration.aspx.cs">
+      <DependentUpon>M2Registration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="M2Registration.aspx.designer.cs">
+      <DependentUpon>M2Registration.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Main1.aspx.cs">
       <DependentUpon>Main1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
