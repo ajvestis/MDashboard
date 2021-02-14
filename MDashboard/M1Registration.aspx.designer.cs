@@ -10,7 +10,7 @@
 namespace MDashboard {
     
     
-    public partial class M2Registration {
+    public partial class M1Registration {
         
         /// <summary>
         /// Head1 control.

@@ -67,6 +67,33 @@ namespace MDashboard {
         protected global::System.Web.UI.WebControls.Label lblCreditCard;
         
         /// <summary>
+        /// imgCustom control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Image imgCustom;
+        
+        /// <summary>
+        /// lblCustom control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblCustom;
+        
+        /// <summary>
+        /// imgStoreCredit control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Image imgStoreCredit;
+        
+        /// <summary>
         /// lblStoreCredit control.
         /// </summary>
         /// <remarks>
@@ -76,6 +103,15 @@ namespace MDashboard {
         protected global::System.Web.UI.WebControls.Label lblStoreCredit;
         
         /// <summary>
+        /// imgDiscount control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Image imgDiscount;
+        
+        /// <summary>
         /// lblDiscount control.
         /// </summary>
         /// <remarks>
@@ -83,6 +119,15 @@ namespace MDashboard {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblDiscount;
+        
+        /// <summary>
+        /// ImgReturn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Image ImgReturn;
         
         /// <summary>
         /// lblReturn control.

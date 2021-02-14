@@ -1,17 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <publishData>
   <publishProfile publishUrl="ftp://maintoutlet.com" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="maintoutlet.com" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="True" profileName="Profile1" publishMethod="FTP" replaceMatchingFiles="True" userName="maintoutlet" savePWD="True" userPWD="AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAyutjeGCvdUOKeFV7p0X5UAAAAAACAAAAAAAQZgAAAAEAACAAAADe10rzFrB11Lf8T5SnteVpQxeQjn4WVQB9b/UOhys1DQAAAAAOgAAAAAIAACAAAAAh2QvwkXdvVp0Uw1DF0IyaYvLtvJHZfG+ht9aTN/ov0SAAAAD5z2raf+pQisrnlAfzgi5cawewgeVUAE6vPgsYe9rXA0AAAABBc3/PUHUmsHyTWh7F67y7Hoa+w09JAom7GUx16iRiextvnoSHgV4fKsYqLfUlHdWq6rjzz4V3jiDP+IoAGPXL" SelectedForPublish="True">
-    <file relUrl="image/Discount.JPG" publishTime="02/04/2021 15:02:43" />
-    <file relUrl="bin/MDashboard.dll" publishTime="02/09/2021 19:30:10" />
-    <file relUrl="Main2.aspx" publishTime="02/09/2021 19:20:34" />
-    <file relUrl="image/Card.JPG" publishTime="02/04/2021 14:39:36" />
-    <file relUrl="image/StoreCredit.JPG" publishTime="02/04/2021 15:00:54" />
     <file relUrl="Web.config" publishTime="02/09/2021 19:20:34" />
-    <file relUrl="M2Registration.aspx" publishTime="02/09/2021 19:35:10" />
+    <file relUrl="bin/MDashboard.pdb" publishTime="02/13/2021 17:17:35" />
+    <file relUrl="Main1.aspx" publishTime="02/13/2021 18:02:37" />
+    <file relUrl="bin/MDashboard.dll" publishTime="02/13/2021 17:17:35" />
+    <file relUrl="image/Custom.JPG" publishTime="02/13/2021 17:10:31" />
+    <file relUrl="bin/AdVantageDataAccessLayer.dll" publishTime="02/04/2021 12:24:41" />
+    <file relUrl="Main2.aspx" publishTime="02/13/2021 17:21:15" />
+    <file relUrl="image/Discount.JPG" publishTime="02/04/2021 15:02:43" />
+    <file relUrl="M2Registration.aspx" publishTime="02/13/2021 18:02:10" />
+    <file relUrl="image/Card.JPG" publishTime="02/04/2021 14:39:36" />
     <file relUrl="image/Cash.JPG" publishTime="02/04/2021 14:34:38" />
     <file relUrl="image/Return.JPG" publishTime="02/04/2021 15:02:12" />
-    <file relUrl="bin/AdVantageDataAccessLayer.dll" publishTime="02/04/2021 12:24:41" />
-    <file relUrl="Main1.aspx" publishTime="02/09/2021 19:20:34" />
-    <file relUrl="bin/MDashboard.pdb" publishTime="02/09/2021 19:30:10" />
+    <file relUrl="M1Registration.aspx" publishTime="02/13/2021 18:02:10" />
+    <file relUrl="Confirmation.aspx" publishTime="02/13/2021 18:11:12" />
+    <file relUrl="image/StoreCredit.JPG" publishTime="02/04/2021 15:00:54" />
   </publishProfile>
 </publishData>

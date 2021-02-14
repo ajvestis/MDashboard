@@ -5,7 +5,7 @@ using System.Collections;
 
 namespace MDashboard
 {
-    public partial class M2Registration : System.Web.UI.Page
+    public partial class M1Registration : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -20,8 +20,8 @@ namespace MDashboard
                 param.Add("@Phone", txtPhone.Text.Trim());
                 param.Add("@FirstName", txtFirstName.Text.Trim());
                 param.Add("@LastName", txtLastName.Text.Trim());
-                AdVantageData.RunProc(Properties.Settings.Default.AJVConnection, "usp_RWAddMember", param);
-                Response.Redirect("Confirmation.aspx?Store=2&Phone=" + txtPhone.Text);
+                AdVantageData.RunProc(Properties.Settings.Default.MT1Connection, "usp_RWAddMember", param);
+                Response.Redirect("Confirmation.aspx?Store=1&Phone=" + txtPhone.Text);
             }
             catch (Exception exc)
                 {

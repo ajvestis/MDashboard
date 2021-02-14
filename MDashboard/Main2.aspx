@@ -12,7 +12,7 @@
     <style>
       body {
         font-family: 'Source Sans Pro', 'Arial';
-        font-size: 30px;
+        font-size: 25px;
       }
     </style>
 </head>
@@ -22,12 +22,13 @@
     <div><asp:Label ID="lblTime" runat="server" Font-Size="Large"></asp:Label> </div>
     <div>
     <asp:label ID="lblTotal" runat="server" text=""></asp:label>
-    <asp:label ID="lblSalesCount" runat="server" text="" Font-Size="Medium"></asp:label>	&nbsp; <img src="image/Cash.JPG" width="24" />
-    <asp:label ID="lblCash" runat="server" text=""></asp:label>	&nbsp;	&nbsp;<img src="image/Card.JPG" width="24" />
-    <asp:label ID="lblCreditCard" runat="server" text=""></asp:label><br />
-    <img src="image/StoreCredit.JPG" width="18" /><asp:label ID="lblStoreCredit" runat="server" text="" Font-Size="Medium"></asp:label>	&nbsp;
-    <img src="image/Discount.JPG" width="18" /><asp:label ID="lblDiscount" runat="server" text="" Font-Size="Medium"></asp:label>	&nbsp;
-    <img src="image/Return.JPG" width="24" /><asp:label ID="lblReturn" runat="server" text="" Font-Size="Medium"></asp:label><br />
+    <asp:label ID="lblSalesCount" runat="server" text="" Font-Size="Medium"></asp:label>	&nbsp; 
+    <img src="image/Cash.JPG" width="28" />     <asp:label ID="lblCash" runat="server" text=""></asp:label>	&nbsp;	&nbsp;
+    <img src="image/Card.JPG" width="24" />     <asp:label ID="lblCreditCard" runat="server" text=""></asp:label><br />
+    <asp:Image ID="imgCustom" runat="server" ImageUrl="~/image/Custom.JPG" Width="24" /><asp:label ID="lblCustom" runat="server" text="" Font-Size="Medium"></asp:label>	&nbsp;
+    <asp:Image ID="imgStoreCredit" runat="server" ImageUrl="~/image/StoreCredit.JPG" Width="18" />     <asp:label ID="lblStoreCredit" runat="server" text="" Font-Size="Medium"></asp:label>	&nbsp;
+    <asp:Image ID="imgDiscount" runat="server" ImageUrl="~/image/Discount.JPG" Width="18" /><asp:label ID="lblDiscount" runat="server" text="" Font-Size="Medium"></asp:label>	&nbsp;
+    <asp:Image ID="ImgReturn" runat="server" ImageUrl="~/image/Return.JPG" Width="24" /><asp:label ID="lblReturn" runat="server" text="" Font-Size="Medium"></asp:label><br />
     </div>
     
     <div> 
